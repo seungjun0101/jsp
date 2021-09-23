@@ -1,0 +1,60 @@
+/* 글꼴 임포트 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+*{ /* 전체 선택 */
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+h3{
+    font-size: 40px;
+}
+
+table{
+    border-spacing: 10px;
+}
+
+td{
+    /* border: 1px solid green; */
+    border-radius: 10px;
+    font-size: 20px;
+}
+.list{
+    background-color: #536dfe;
+    font-size: 1.5em;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+input,select,button{
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+
+
+/* 타입이라는 이름의 속성을 이용한 선택자 */
+input[type= submit],input[type=reset],button,input[type=button]{
+    background-color: #8f9bff;
+    cursor: pointer;
+    border: none;
+    color: aliceblue;
+}
+
+input[type= submit]:hover,input[type=reset]:hover,button:hover,input[type=button]:hover{
+    background-color: #0043ca;
+}
+
+input[type=text], input[type=password],input[type = email]{
+    width: 100%;
+    text-align: center;
+    letter-spacing :3px; /* 글자사이의 간격 */
+}
+
+input[type=number]{
+    width: 15%;
+    font-size: 25px;
+}
+
+/* 
+ */
