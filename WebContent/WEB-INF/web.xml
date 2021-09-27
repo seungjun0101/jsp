@@ -10,3 +10,7 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
 </web-app>
+<!-- xml : extended markup language.
+	태그를 정의해서 사용할수 있음, 태그에 의미와 형식이 있습니다.
+	목적: 데이터의 저장 -> 설정파일에 활용합니다.
+ -->
